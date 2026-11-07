@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASKORA — Full-Service Creative & Growth Partner</title>
+    
+    <!-- Google Search Console Verification Tag -->
+    <meta name="google-site-verification" content="googlea22e5aa000dd859a" />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASKORA — Full-Service Creative & Growth Partner</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        vbp: {
+                            bg: '#0B0C10',
+                            cardBg: '#12141C',
+                            black: '#050505',
+                            orange: '#FF5722',
+                            orangeDark: '#E64A19',
+                            orangeLight: '#FF8A65',
+                            muted: '#9CA3AF'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'Helvetica Neue', 'Arial', 'sans-serif'],
+                        mono: ['Courier New', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom Scroll Reveal CSS -->
+    <style>
+        .reveal {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: opacity 0.8s ease-out, transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+            will-change: opacity, transform;
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .delay-1 { transition-delay: 0.15s; }
+        .delay-2 { transition-delay: 0.3s; }
+        .delay-3 { transition-delay: 0.45s; }
+    </style>
+</head>
+<body class="bg-vbp-bg text-white font-sans antialiased selection:bg-vbp-orange selection:text-white overflow-x-hidden">
+
+    <!-- Header / Navigation -->
+    <header class="fixed top-0 left-0 w-full z-50 bg-vbp-bg/90 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <!-- Header Logo -->
+            <a href="#" class="flex items-center space-x-3 group">
+                <img src="askora logo.jpeg" alt="ASKORA Logo" class="h-12 w-12 object-cover rounded-lg border border-vbp-orange/50 shadow-lg group-hover:scale-105 transition-transform" onerror="this.onerror=null; this.src='https://placehold.co/100x100/12141C/FF5722?text=ASKORA';">
+                <div class="flex flex-col">
+                    <span class="text-xl font-black tracking-wider text-white uppercase leading-none">ASKORA</span>
+                    <span class="text-[9px] font-mono tracking-widest text-vbp-orange uppercase mt-1">Growth Partner</span>
+                </div>
+            </a>
+            
+            <nav class="hidden lg:flex items-center space-x-8 text-xs font-bold uppercase tracking-widest text-vbp-muted">
+                <a href="#about" class="hover:text-vbp-orange transition-colors">Who We Are</a>
+                <a href="#mavericks" class="hover:text-vbp-orange transition-colors">Who We Work Best With</a>
+                <a href="#capabilities" class="hover:text-vbp-orange transition-colors">Capabilities</a>
+                <a href="#video" class="hover:text-vbp-orange transition-colors">TikTok Content</a>
+                <a href="#contact" class="hover:text-vbp-orange transition-colors">Contact</a>
+            </nav>
+
+            <a href="https://www.tiktok.com/@askora.lk?_r=1&_t=ZS-9AFeKH1mZfT" target="_blank" class="inline-flex items-center space-x-2 border border-vbp-orange text-vbp-orange px-5 py-2.5 text-xs font-bold uppercase tracking-widest hover:bg-vbp-orange hover:text-white transition-all rounded-full">
+                <i class="fa-brands fa-tiktok text-sm"></i>
+                <span>TikTok Profile</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Banner / Hero Section -->
+    <section class="pt-40 pb-20 px-6 max-w-7xl mx-auto border-b border-white/10">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div class="lg:col-span-8">
+                <span class="reveal text-xs font-mono uppercase tracking-widest text-vbp-orange font-bold mb-4 block">
+                    Full-Service Creative Company
+                </span>
+                <h1 class="reveal delay-1 text-4xl md:text-6xl lg:text-7xl font-black tracking-tight uppercase leading-[1.05] mb-8 text-white">
+                    We deliver <span class="underline decoration-vbp-orange underline-offset-8 text-vbp-orange">Outsized Impact</span> for our clients.
+                </h1>
+                <p class="reveal delay-2 text-lg md:text-2xl font-light text-vbp-muted max-w-3xl leading-relaxed">
+                    That’s what we call real-world results that go beyond the expectations of traditional ROI. It starts with challenging the assumptions that limit potential. It usually ends with high-fives, group hugs and champagne toasts.
+                </p>
+            </div>
+            
+            <!-- Hero Brand Logo Card -->
+            <div class="lg:col-span-4 reveal delay-2 flex justify-center">
+                <div class="p-5 bg-vbp-cardBg border border-vbp-orange/30 rounded-2xl shadow-2xl text-center">
+                    <img src="askora logo.jpeg" alt="ASKORA Brand Logo" class="w-full max-w-[280px] h-auto object-cover rounded-xl border border-white/10 mx-auto mb-4" onerror="this.onerror=null; this.src='https://placehold.co/300x300/12141C/FF5722?text=ASKORA+AGENCY';">
+                    <span class="text-xs font-mono uppercase text-vbp-orange tracking-widest font-bold">Research • Improve • Market • Grow</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Who We Are -->
+    <section id="about" class="py-20 px-6 max-w-7xl mx-auto border-b border-white/10">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+            <div class="lg:col-span-4 reveal">
+                <span class="text-xs font-mono uppercase tracking-widest text-vbp-orange block mb-2">Philosophy & Culture</span>
+                <h2 class="text-3xl md:text-5xl font-black uppercase tracking-tight text-white">Who We Are</h2>
+            </div>
+            <div class="lg:col-span-8 space-y-6 text-lg md:text-xl font-light text-vbp-muted leading-relaxed">
+                <p class="reveal delay-1">
+                    <strong class="font-bold text-white">ASKORA</strong> is a proudly independent, full-service creative company hellbent on driving sustained growth for our clients.
+                </p>
+                <p class="reveal delay-2">
+                    We firmly believe that if we focus on doing right by our employees, our clients and consumers in the market, then all the “rest” — profit, growth, recognition — will take care of itself.
+                </p>
+                <p class="reveal delay-3 text-base md:text-lg border-l-2 border-vbp-orange pl-6 italic text-white/90">
+                    We’re humbled to say that this philosophy seems to be working for us. We’re honored to have driven tangible, meaningful results in partnership with ambitious brands. And lastly, a word on our independence: it makes all the above possible.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Who We Work Best With (Maverick Brands) -->
+    <section id="mavericks" class="py-20 px-6 max-w-7xl mx-auto border-b border-white/10">
+        <div class="bg-vbp-cardBg border border-vbp-orange/30 rounded-3xl p-8 md:p-14 shadow-2xl reveal">
+            <div class="max-w-4xl">
+                <span class="text-xs font-mono uppercase tracking-widest text-vbp-orange block mb-3 font-bold">Client Fit</span>
+                <h2 class="text-3xl md:text-5xl font-black uppercase tracking-tight text-white mb-6">Who We Work Best With</h2>
+                
+                <p class="text-lg md:text-2xl font-light text-vbp-muted leading-relaxed mb-8">
+                    There are brands who know in their bones that there is a better way out there, and are determined to hunt it down. They are battle-tested and undeterred. They are armed with equal measures of resourcefulness and courage, and they never fail to take action.
+                </p>
+                
+                <div class="p-6 bg-vbp-bg border border-vbp-orange/20 rounded-2xl">
+                    <h3 class="text-xl md:text-2xl font-black uppercase text-vbp-orange mb-2">They Are Maverick Brands</h3>
+                    <p class="text-base md:text-lg text-white/90 font-light leading-relaxed">
+                        They question everything, innovate unceasingly and push forward unflinchingly. They’re just our kind of people.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Capabilities / Services -->
+    <section id="capabilities" class="py-20 px-6 max-w-7xl mx-auto border-b border-white/10">
+        <div class="reveal mb-12">
+            <span class="text-xs font-mono uppercase tracking-widest text-vbp-orange block mb-2">End-to-End Solutions</span>
+            <h2 class="text-3xl md:text-5xl font-black uppercase tracking-tight text-white">Our Capabilities</h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- Strategy -->
+            <div class="reveal delay-1 bg-vbp-cardBg border border-white/10 rounded-2xl p-7 hover:border-vbp-orange/50 transition-all">
+                <div class="flex items-center space-x-3 mb-6">
+                    <div class="w-3 h-3 bg-vbp-orange rounded-full"></div>
+                    <h3 class="text-xl font-black uppercase tracking-wider text-white">STRATEGY</h3>
+                </div>
+                <ul class="space-y-3 text-sm text-vbp-muted font-mono">
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Consumer Insights + Research</span></li>
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Audience Segmentation</span></li>
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Multicultural Strategy</span></li>
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Product Strategy + Innovation</span></li>
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Brand + Communications Strategy</span></li>
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Social + Influencer Strategy</span></li>
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Platform + Ecosystem Planning</span></li>
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>KPI Tracking</span></li>
+                </ul>
+            </div>
+
+            <!-- Brand -->
+            <div class="reveal delay-1 bg-vbp-cardBg border border-white/10 rounded-2xl p-7 hover:border-vbp-orange/50 transition-all">
+                <div class="flex items-center space-x-3 mb-6">
+                    <div class="w-3 h-3 bg-vbp-orange rounded-full"></div>
+                    <h3 class="text-xl font-black uppercase tracking-wider text-white">BRAND</h3>
+                </div>
+                <ul class="space-y-3 text-sm text-vbp-muted font-mono">
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Brand Management</span></li>
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Project Management</span></li>
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Lead Agency Integration</span></li>
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Global + Regional Integration</span></li>
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Internal Sell-In Support</span></li>
+                </ul>
+            </div>
+
+            <!-- Design -->
+            <div class="reveal delay-2 bg-vbp-cardBg border border-white/10 rounded-2xl p-7 hover:border-vbp-orange/50 transition-all">
+                <div class="flex items-center space-x-3 mb-6">
+                    <div class="w-3 h-3 bg-vbp-orange rounded-full"></div>
+                    <h3 class="text-xl font-black uppercase tracking-wider text-white">DESIGN</h3>
+                </div>
+                <ul class="space-y-3 text-sm text-vbp-muted font-mono">
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Full Visual Identity</span></li>
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Brand Ecosystem Design</span></li>
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Brand + Campaign Toolkits</span></li>
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>UI/UX Design</span></li>
+                </ul>
+            </div>
+
+            <!-- Creative -->
+            <div class="reveal delay-2 bg-vbp-cardBg border border-white/10 rounded-2xl p-7 hover:border-vbp-orange/50 transition-all">
+                <div class="flex items-center space-x-3 mb-6">
+                    <div class="w-3 h-3 bg-vbp-orange rounded-full"></div>
+                    <h3 class="text-xl font-black uppercase tracking-wider text-white">CREATIVE</h3>
+                </div>
+                <ul class="space-y-3 text-sm text-vbp-muted font-mono">
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Brand Platforms</span></li>
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Integrated Campaigns</span></li>
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Proactive + Reactive Content</span></li>
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Partnerships + Collabs</span></li>
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Digital + AI Innovation</span></li>
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Immersive Experiences</span></li>
+                </ul>
+            </div>
+
+            <!-- Production -->
+            <div class="reveal delay-3 bg-vbp-cardBg border border-white/10 rounded-2xl p-7 hover:border-vbp-orange/50 transition-all">
+                <div class="flex items-center space-x-3 mb-6">
+                    <div class="w-3 h-3 bg-vbp-orange rounded-full"></div>
+                    <h3 class="text-xl font-black uppercase tracking-wider text-white">PRODUCTION</h3>
+                </div>
+                <ul class="space-y-3 text-sm text-vbp-muted font-mono">
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Cross-Channel Production</span></li>
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Full In-House Production Services</span></li>
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Business Affairs + Trafficking</span></li>
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Proofreading</span></li>
+                </ul>
+            </div>
+
+            <!-- Optimization -->
+            <div class="reveal delay-3 bg-vbp-cardBg border border-white/10 rounded-2xl p-7 hover:border-vbp-orange/50 transition-all">
+                <div class="flex items-center space-x-3 mb-6">
+                    <div class="w-3 h-3 bg-vbp-orange rounded-full"></div>
+                    <h3 class="text-xl font-black uppercase tracking-wider text-white">OPTIMIZATION</h3>
+                </div>
+                <ul class="space-y-3 text-sm text-vbp-muted font-mono">
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Analytics</span></li>
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Action Planning</span></li>
+                    <li class="flex items-center space-x-2"><span class="text-vbp-orange">•</span> <span>Revisions + Redeployment</span></li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section: Featured TikTok Video Covers Gallery -->
+    <section id="video" class="py-20 px-6 max-w-7xl mx-auto border-b border-white/10">
+        <div class="reveal flex flex-col md:flex-row justify-between items-start md:items-end mb-10 border-b border-white/10 pb-6">
+            <div>
+                <span class="text-xs font-mono uppercase tracking-widest text-vbp-orange block mb-2">Short-Form Showcase</span>
+                <h2 class="text-3xl md:text-5xl font-black uppercase tracking-tight text-white">Featured TikTok Covers</h2>
+            </div>
+            
+            <a href="https://www.tiktok.com/@askora.lk?_r=1&_t=ZS-9AFeKH1mZfT" target="_blank" class="text-xs font-mono text-vbp-orange hover:underline mt-4 md:mt-0 flex items-center gap-2">
+                <span>View Full Profile on TikTok</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+
+        <!-- Video Covers Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            
+            <!-- Video Card 1 -->
+            <div class="reveal delay-1 bg-vbp-cardBg border border-vbp-orange/30 rounded-2xl p-4 space-y-4 shadow-2xl hover:border-vbp-orange/80 transition-all group flex flex-col justify-between">
+                <div>
+                    <a href="https://vt.tiktok.com/ZSbmo8uao/" target="_blank" class="relative block w-full aspect-[9/16] bg-neutral-900 rounded-xl overflow-hidden border border-white/10">
+                        <img src="cover1.jpeg" alt="Are people like to go abroad or stay in srilanka" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.onerror=null; this.src='https://placehold.co/1080x1920/12141C/FF5722?text=Cover+1';">
+                        
+                        <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all flex flex-col items-center justify-center">
+                            <div class="w-12 h-12 bg-vbp-orange text-white rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                                <i class="fa-solid fa-play text-base ml-0.5"></i>
+                            </div>
+                            <span class="mt-3 text-[10px] font-mono uppercase tracking-widest text-white/90 bg-black/70 px-3 py-1 rounded-full border border-white/20">Watch on TikTok</span>
+                        </div>
+                    </a>
+
+                    <div class="mt-4 space-y-2">
+                        <span class="text-[10px] font-mono text-vbp-orange uppercase tracking-widest block">Cover Page #1</span>
+                        <a href="https://vt.tiktok.com/ZSbmo8uao/" target="_blank" class="block text-base font-bold uppercase text-white hover:text-vbp-orange transition-colors leading-snug">
+                            "Are people like to go abroad or stay in srilanka"
+                        </a>
+                    </div>
+                </div>
+
+                <a href="https://vt.tiktok.com/ZSbmo8uao/" target="_blank" class="inline-flex items-center justify-center space-x-2 bg-vbp-orange text-white hover:bg-vbp-orangeDark px-4 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider transition-all shadow-md w-full">
+                    <i class="fa-brands fa-tiktok text-sm"></i>
+                    <span>Open Link</span>
+                </a>
+            </div>
+
+            <!-- Video Card 2 -->
+            <div class="reveal delay-2 bg-vbp-cardBg border border-vbp-orange/30 rounded-2xl p-4 space-y-4 shadow-2xl hover:border-vbp-orange/80 transition-all group flex flex-col justify-between">
+                <div>
+                    <a href="https://vm.tiktok.com/ZSgqGbhWn/" target="_blank" class="relative block w-full aspect-[9/16] bg-neutral-900 rounded-xl overflow-hidden border border-white/10">
+                        <img src="cover2.jpeg" alt="Are we going abroad or staying in Sri Lanka?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.onerror=null; this.src='https://placehold.co/1080x1920/12141C/FF5722?text=Cover+2';">
+                        
+                        <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all flex flex-col items-center justify-center">
+                            <div class="w-12 h-12 bg-vbp-orange text-white rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                                <i class="fa-solid fa-play text-base ml-0.5"></i>
+                            </div>
+                            <span class="mt-3 text-[10px] font-mono uppercase tracking-widest text-white/90 bg-black/70 px-3 py-1 rounded-full border border-white/20">Watch on TikTok</span>
+                        </div>
+                    </a>
+
+                    <div class="mt-4 space-y-2">
+                        <span class="text-[10px] font-mono text-vbp-orange uppercase tracking-widest block">Cover Page #2</span>
+                        <a href="https://vm.tiktok.com/ZSgqGbhWn/" target="_blank" class="block text-base font-bold uppercase text-white hover:text-vbp-orange transition-colors leading-snug">
+                            "Are we going abroad or staying in Sri Lanka?"
+                        </a>
+                    </div>
+                </div>
+
+                <a href="https://vm.tiktok.com/ZSgqGbhWn/" target="_blank" class="inline-flex items-center justify-center space-x-2 bg-vbp-orange text-white hover:bg-vbp-orangeDark px-4 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider transition-all shadow-md w-full">
+                    <i class="fa-brands fa-tiktok text-sm"></i>
+                    <span>Open Link</span>
+                </a>
+            </div>
+
+            <!-- Video Card 3 -->
+            <div class="reveal delay-3 bg-vbp-cardBg border border-vbp-orange/30 rounded-2xl p-4 space-y-4 shadow-2xl hover:border-vbp-orange/80 transition-all group flex flex-col justify-between">
+                <div>
+                    <a href="https://vm.tiktok.com/ZSgqG35r4/" target="_blank" class="relative block w-full aspect-[9/16] bg-neutral-900 rounded-xl overflow-hidden border border-white/10">
+                        <img src="cover3.jpeg" alt="Brand vs Quality vs Price" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.onerror=null; this.src='https://placehold.co/1080x1920/12141C/FF5722?text=Cover+3';">
+                        
+                        <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all flex flex-col items-center justify-center">
+                            <div class="w-12 h-12 bg-vbp-orange text-white rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                                <i class="fa-solid fa-play text-base ml-0.5"></i>
+                            </div>
+                            <span class="mt-3 text-[10px] font-mono uppercase tracking-widest text-white/90 bg-black/70 px-3 py-1 rounded-full border border-white/20">Watch on TikTok</span>
+                        </div>
+                    </a>
+
+                    <div class="mt-4 space-y-2">
+                        <span class="text-[10px] font-mono text-vbp-orange uppercase tracking-widest block">Cover Page #3</span>
+                        <a href="https://vm.tiktok.com/ZSgqG35r4/" target="_blank" class="block text-base font-bold uppercase text-white hover:text-vbp-orange transition-colors leading-snug">
+                            "Brand vs Quality vs Price"
+                        </a>
+                    </div>
+                </div>
+
+                <a href="https://vm.tiktok.com/ZSgqG35r4/" target="_blank" class="inline-flex items-center justify-center space-x-2 bg-vbp-orange text-white hover:bg-vbp-orangeDark px-4 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider transition-all shadow-md w-full">
+                    <i class="fa-brands fa-tiktok text-sm"></i>
+                    <span>Open Link</span>
+                </a>
+            </div>
+
+            <!-- Video Card 4 -->
+            <div class="reveal delay-3 bg-vbp-cardBg border border-vbp-orange/30 rounded-2xl p-4 space-y-4 shadow-2xl hover:border-vbp-orange/80 transition-all group flex flex-col justify-between">
+                <div>
+                    <a href="https://vm.tiktok.com/ZSgqGbfCe/" target="_blank" class="relative block w-full aspect-[9/16] bg-neutral-900 rounded-xl overflow-hidden border border-white/10">
+                        <img src="cover4.jpeg" alt="I feel like eating when I’m bored." class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.onerror=null; this.src='https://placehold.co/1080x1920/12141C/FF5722?text=Cover+4';">
+                        
+                        <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all flex flex-col items-center justify-center">
+                            <div class="w-12 h-12 bg-vbp-orange text-white rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                                <i class="fa-solid fa-play text-base ml-0.5"></i>
+                            </div>
+                            <span class="mt-3 text-[10px] font-mono uppercase tracking-widest text-white/90 bg-black/70 px-3 py-1 rounded-full border border-white/20">Watch on TikTok</span>
+                        </div>
+                    </a>
+
+                    <div class="mt-4 space-y-2">
+                        <span class="text-[10px] font-mono text-vbp-orange uppercase tracking-widest block">Cover Page #4</span>
+                        <a href="https://vm.tiktok.com/ZSgqGbfCe/" target="_blank" class="block text-base font-bold uppercase text-white hover:text-vbp-orange transition-colors leading-snug">
+                            "I feel like eating when I’m bored."
+                        </a>
+                    </div>
+                </div>
+
+                <a href="https://vm.tiktok.com/ZSgqGbfCe/" target="_blank" class="inline-flex items-center justify-center space-x-2 bg-vbp-orange text-white hover:bg-vbp-orangeDark px-4 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider transition-all shadow-md w-full">
+                    <i class="fa-brands fa-tiktok text-sm"></i>
+                    <span>Open Link</span>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="py-16 px-6 max-w-7xl mx-auto">
+        <div class="reveal grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div>
+                <!-- Footer Brand Logo -->
+                <div class="flex items-center space-x-3 mb-6">
+                    <img src="askora logo.jpeg" alt="ASKORA Logo" class="h-12 w-12 object-cover rounded-lg border border-vbp-orange/50" onerror="this.onerror=null; this.src='https://placehold.co/100x100/12141C/FF5722?text=ASKORA';">
+                    <span class="text-2xl font-black uppercase text-white">ASKORA</span>
+                </div>
+                <h2 class="text-3xl md:text-5xl font-black uppercase tracking-tight mb-6 text-white">Work With Us</h2>
+                <div class="space-y-4">
+                    <div>
+                        <p class="text-xs font-mono text-vbp-orange uppercase mb-1">Email Us:</p>
+                        <a href="mailto:askoraofficial@gmail.com" class="text-lg md:text-xl font-bold underline decoration-vbp-orange hover:text-vbp-orange text-white block">askoraofficial@gmail.com</a>
+                    </div>
+                    <div>
+                        <p class="text-xs font-mono text-vbp-orange uppercase mb-1">Call Us:</p>
+                        <a href="tel:0726589542" class="text-lg md:text-xl font-bold text-white hover:text-vbp-orange block">0726589542</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col justify-between space-y-6">
+                <div>
+                    <span class="text-xs font-mono uppercase tracking-widest text-vbp-orange block mb-3">Connect With Us</span>
+                    <div class="flex flex-wrap gap-4 text-sm font-bold uppercase tracking-wider text-vbp-muted">
+                        <a href="https://www.tiktok.com/@askora.lk?_r=1&_t=ZS-9AFeKH1mZfT" target="_blank" class="inline-flex items-center gap-2 hover:text-vbp-orange bg-vbp-cardBg px-4 py-2.5 rounded-full border border-white/10 transition-colors">
+                            <i class="fa-brands fa-tiktok text-vbp-orange"></i>
+                            <span>TikTok Profile</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-xs font-mono text-vbp-muted">
+                    <p>&copy; 2026 ASKORA. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Scroll Animation -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.15
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+        });
+    </script>
+
+</body>
+</html>
